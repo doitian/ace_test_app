@@ -1,0 +1,10 @@
+== README
+
+Minimal app to test 
+
+https://github.com/codykrieger/ace-rails-ap/pull/16#issuecomment-133356961
+
+    bundle install
+    RAILS_ENV=production bundle exec rake db:setup
+    RAILS_ENV=production bundle exec rake assets:precompile
+    RAILS_ENV=production bundle exec rails s
